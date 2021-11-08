@@ -4,6 +4,21 @@
 
 body {
     margin: 0;
+    background-image: url("https://learn.canva.com/wp-content/uploads/2020/02/removing-background-images_Unsplash.jpeg");
+    text-align: center;
+}
+
+.container{
+    background-color: white;
+    width: 60%;
+    height: 300px;
+    border-radius: 30px;
+    margin: 50px auto auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    opacity: 0.8;
+    overflow: hidden;
 }
 
 
@@ -11,8 +26,7 @@ body {
 ul.top_nav {
     list-style-type: none;
     margin: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0;
     overflow: hidden;
     text-align: center;
     background-color: cadetblue;
@@ -20,6 +34,7 @@ ul.top_nav {
 
 ul.top_nav li {
     display: inline;
+    margin: 0;
 }
 
 ul.top_nav li a {
