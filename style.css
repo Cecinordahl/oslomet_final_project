@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    /* Random bakgrunnsbilde; endre til noe bedre ? */
     background-image: url("https://learn.canva.com/wp-content/uploads/2020/02/removing-background-images_Unsplash.jpeg");
     text-align: center;
 }
