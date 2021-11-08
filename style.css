@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* NAVIGATION BAR */
+ul.top_nav {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+ul.top_nav li {
+    display: inline;
+}
+
+ul.top_nav li a {
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+ul.top_nav li a:hover {
+    border-bottom: white solid 2px;
+}
+
+
+
+
+
+
+/* RESPONSIVE DESIGN; mobile view */
+@media only screen and (max-width: 600px) {
+    ul.top_nav li a {
+        display: block;
+    }
+
+}
