@@ -1,14 +1,59 @@
 * {
     box-sizing: border-box;
+    font-family: Tahoma, serif;
 }
 
 body {
     margin: 0;
-    /* Random bakgrunnsbilde; endre til noe bedre ? */
-    background-image: url("https://learn.canva.com/wp-content/uploads/2020/02/removing-background-images_Unsplash.jpeg");
     text-align: center;
+    height: 100vh;
+    background-color: #FFCC00;
 }
 
+
+
+
+
+/* INDEX PAGE */
+.container__index{
+    padding-top: 100px;
+    margin: 0 auto;
+    display: block;
+    width: 80vw;
+    height: 100vh;
+}
+
+.box1, .box2{
+    width: 30vw;
+    height: fit-content;
+    background-color: #FFCC00;
+    border-radius: 10px;
+    opacity: 0.8;
+    text-align: left;
+}
+
+.box1{
+    margin-left: 25vw;
+    float: right;
+}
+
+.box2{
+    float: left;
+    margin-right: 25vw;
+}
+
+.heading_index{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+/* CONTAINERS ON ALL PAGES (except index) */
 .container{
     background-color: white;
     width: 60%;
@@ -22,6 +67,14 @@ body {
     overflow: hidden;
 }
 
+footer{
+    background-color: orange;
+    height: 20vh;
+}
+
+
+
+
 
 /* NAVIGATION BAR */
 ul.top_nav {
@@ -30,7 +83,8 @@ ul.top_nav {
     padding: 20px 0;
     overflow: hidden;
     text-align: center;
-    background-color: cadetblue;
+    background-color: white;
+    font-size: 20px;
 }
 
 ul.top_nav li {
@@ -39,10 +93,11 @@ ul.top_nav li {
 }
 
 ul.top_nav li a {
-    color: white;
+    color: black;
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
+    float: right;
 }
 
 ul.top_nav li a:hover {
@@ -56,8 +111,9 @@ ul.top_nav li a:hover {
 
 /* RESPONSIVE DESIGN; mobile view */
 @media only screen and (max-width: 600px) {
-    ul.top_nav li a {
+    ul.top_nav li a, ul.top_nav_index li a {
         display: block;
+        font-size: 100%;
     }
 
 }
