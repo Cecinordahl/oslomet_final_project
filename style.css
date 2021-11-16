@@ -3,11 +3,23 @@
     font-family: Tahoma, serif;
 }
 
+.frontpage {
+    /*Background image*/
+    background-image: url(/IMG_1924.jpg);
+    background-color: #FFDC00;
+
+    min-height: 500px;
+        
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
 body {
     margin: 0;
     text-align: center;
     height: 100vh;
-    background-color: #FFCC00;
+    background-color: #FFDC00;
 }
 
 
@@ -15,6 +27,17 @@ body {
 
 
 /* INDEX PAGE */
+
+.index_background {
+    background-image: url(/IMG_1924.jpg);
+    
+    min-height: 500px;
+        
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
 .container__index{
     padding-top: 100px;
     margin: 0 auto;
@@ -26,7 +49,7 @@ body {
 .box1, .box2{
     width: 30vw;
     height: fit-content;
-    background-color: #FFCC00;
+    background-color: #FFDC00;
     border-radius: 10px;
     opacity: 0.8;
     text-align: left;
@@ -68,7 +91,7 @@ body {
 }
 
 footer{
-    background-color: orange;
+    background-color: #FF8100;
     height: 20vh;
 }
 
