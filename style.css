@@ -3,18 +3,6 @@
     font-family: Tahoma, serif;
 }
 
-.frontpage {
-    /*Background image*/
-    background-image: url(/IMG_1924.jpg);
-    background-color: #FFDC00;
-
-    min-height: 500px;
-        
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
-    background-size: cover;
-}
 body {
     margin: 0;
     text-align: center;
