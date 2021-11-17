@@ -6,7 +6,6 @@
 body {
     margin: 0;
     text-align: center;
-    height: 100vh;
     background-color: #FFCC00;
 }
 
@@ -16,30 +15,9 @@ body {
 
 /* INDEX PAGE */
 .container__index{
-    padding-top: 100px;
     margin: 0 auto;
     display: block;
-    width: 80vw;
-    height: 100vh;
-}
-
-.box1, .box2{
-    width: 30vw;
-    height: fit-content;
-    background-color: #FFCC00;
-    border-radius: 10px;
-    opacity: 0.8;
-    text-align: left;
-}
-
-.box1{
-    margin-left: 25vw;
-    float: right;
-}
-
-.box2{
-    float: left;
-    margin-right: 25vw;
+    width: 100vw;
 }
 
 .heading_index{
@@ -78,6 +56,10 @@ footer{
 
 
 /* NAVIGATION BAR */
+.navigation_bar{
+    position: fixed;
+    width: 100vw;
+}
 ul.top_nav {
     list-style-type: none;
     margin: 0;
