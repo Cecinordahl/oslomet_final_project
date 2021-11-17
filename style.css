@@ -6,7 +6,8 @@
 body {
     margin: 0;
     text-align: center;
-    background-color: #FFCC00;
+    height: 100vh;
+    background-color: #FFDC00;
 }
 
 
@@ -14,6 +15,17 @@ body {
 
 
 /* INDEX PAGE */
+
+.index_background {
+    background-image: url(/IMG_2829.jpg);
+
+    min-height: 500px;
+
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
 .container__index{
     margin: 0 auto;
     display: block;
@@ -24,11 +36,6 @@ body {
     text-transform: uppercase;
     font-size: 50px;
 }
-
-
-
-
-
 
 
 /* CONTAINERS ON ALL PAGES (except index) */
@@ -46,7 +53,7 @@ body {
 }
 
 footer{
-    background-color: orange;
+    background-color: #FF8100;
     height: 20vh;
     clear: left;
 }
