@@ -70,6 +70,7 @@ body {
 footer{
     background-color: orange;
     height: 20vh;
+    clear: left;
 }
 
 
