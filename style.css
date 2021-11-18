@@ -26,10 +26,13 @@ h2 {
     background-attachment: fixed;
     background-size: cover;
 }
-.container__index{
+.container_index{
+    background-color:white;
     width: 60%;
-    height: 500px;
+    height: 250px;
     border-radius: 30px;
+    border-style: solid;
+    border-width: 5px;
     margin: 50px auto auto;
     padding-left: 30px;
     padding-right: 30px;
@@ -40,13 +43,22 @@ h2 {
     width: 100vw; */
 }
 
+.heading_index{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+/*FRONGPAGE/INDEX NAVIGATION*/
 ul.index_nav {
     list-style-type: none;
     text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
 }
 
 ul.index_nav li a {
     text-decoration: none;
+    text-align: center;
     color: black;
     font-weight: bold;
     font-size: 20px;
@@ -55,11 +67,8 @@ ul.index_nav li a {
 
 ul.index_nav li a:hover {
     border-bottom: black solid 2px;
-}
-
-.heading_index{
-    text-transform: uppercase;
-    font-size: 50px;
+    border-top: black solid 2px;
+    background-color: white;
 }
 
 
@@ -88,8 +97,6 @@ footer{
 .navigation_bar{
     position: fixed;
     width: 100vw;
-    border-color: black;
-    border-width: 100px;
 }
 ul.top_nav {
     list-style-type: none;
@@ -120,11 +127,6 @@ ul.top_nav li a:hover {
     border-bottom:black solid 2px;
 }
 
-
-
-
-
-
 /* RESPONSIVE DESIGN; mobile view */
 @media only screen and (max-width: 600px) {
     ul.top_nav li a, ul.top_nav_index li a {
@@ -139,6 +141,15 @@ ul.top_nav li a:hover {
 
     .heading_index {
         font-size: 25px;
+    }
+
+    .container_index {
+        height: 520px;
+        
+    }
+
+    h2 {
+        font-size: 20px;
     }
 
 }
