@@ -9,7 +9,9 @@ body {
     height: 100vh;
     background-color: #FFDC00;
 }
-
+h1 {
+   font-size: 60px; 
+}
 h2 {
     font-size: 40px;
 }
@@ -26,10 +28,6 @@ h2 {
     background-attachment: fixed;
     background-size: cover;
 }
-<<<<<<< Updated upstream
-.container_index{
-    background-color:white;
-=======
 
 .index_background2 {
     background-image: url(/IMG_2822.jpg);
@@ -41,7 +39,6 @@ h2 {
 }
 
 .container__index{
->>>>>>> Stashed changes
     width: 60%;
     height: 250px;
     border-radius: 30px;
@@ -57,15 +54,7 @@ h2 {
     width: 100vw; */
 }
 
-<<<<<<< Updated upstream
-.heading_index{
-    text-transform: uppercase;
-    font-size: 50px;
-}
-
-/*FRONGPAGE/INDEX NAVIGATION*/
-=======
-.container__index__Topic{
+.container__Topic{
     width: 60%;
     height: 1200px;
     border-radius: 30px;
@@ -79,7 +68,6 @@ h2 {
     width: 100vw; */
 }
 
->>>>>>> Stashed changes
 ul.index_nav {
     list-style-type: none;
     text-transform: uppercase;
