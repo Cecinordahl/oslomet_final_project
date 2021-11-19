@@ -29,15 +29,6 @@ h2 {
     background-size: cover;
 }
 
-.index_background2 {
-    background-image: url(/IMG_2822.jpg);
-    min-height: 800px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
 .container__index{
     width: 60%;
     height: 250px;
@@ -53,6 +44,18 @@ h2 {
     display: block;
     width: 100vw; */
 }
+
+/* TOPICAL PAGE*/
+
+.topical_background {
+    background-image: url(/IMG_2822.jpg);
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 
 .container__Topic{
     width: 60%;
@@ -120,10 +123,11 @@ footer{
 ul.top_nav {
     list-style-type: none;
     margin: 0;
-    padding: 20px 0;
+    padding: 20px 15px;
     overflow: hidden;
     text-align: center;
     background-color: white;
+    opacity: 0.8;
     font-size: 20px;
 }
 
