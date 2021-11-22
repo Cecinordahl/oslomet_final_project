@@ -110,6 +110,10 @@ ul.index_nav li a:hover {
     background-size: cover;
 }
 
+.sources {
+    font-size: 80%;
+}
+
 /*REFLECTION PAGE */
 
 .reflection_background {
