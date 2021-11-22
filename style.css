@@ -23,8 +23,6 @@ h2 {
 }
 
 
-
-
 /* INDEX PAGE */
 
 .index_background {
@@ -38,11 +36,10 @@ h2 {
 
 .container_index{
     width: 60%;
-    background-color: white;
-    height: 250px;
-    border-radius: 0px;
     border-style: solid;
-    border-width: 3px;
+    border-width: 4px;
+    border-radius: 20px;
+    height: 250px;
     margin: 50px auto auto;
     padding-left: 30px;
     padding-right: 30px;
@@ -69,7 +66,6 @@ ul.index_nav li a {
 }
 
 ul.index_nav li a:hover {
-    border-bottom: black solid 2px;
     border-top: black solid 2px;
     background-color: white;
 }
@@ -85,16 +81,26 @@ ul.index_nav li a:hover {
     background-size: cover;
 }
 
+/*ACCESSIBILITY PAGE */
+
+.accessibility_background {
+    background-image: url(/IMG_2824.jpg);
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 /* CONTAINERS ON ALL PAGES (except index) */
 .container {
     background-color: white;
+    opacity: 0.8;
     width: 60%;
-    border-radius: 0px;
     margin: 50px auto auto;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
-    opacity: 0.8;
     overflow: hidden;
 }
 
@@ -166,8 +172,17 @@ ul.top_nav li a:hover {
     .container_index {
         height: auto;
         width: auto;
-        margin: 0 30px 0 30px;
+        margin: 0 20px 0 20px;
     }
+
+    .container {
+        height: auto;
+        width: auto;
+        margin: 0 20px 0 20px;
+        text-align: left;
+    }
+
+    
 
     h2 {
         font-size: 25px;
