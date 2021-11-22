@@ -99,6 +99,17 @@ ul.index_nav li a:hover {
     background-size: cover;
 }
 
+/*REFLECTION PAGE */
+
+.reflection_background {
+    background-image: url(/IMG_2852.jpg);
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 /* CONTAINERS ON ALL PAGES (except index) */
 .container {
     background-color: white;
