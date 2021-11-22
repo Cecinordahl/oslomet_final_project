@@ -22,6 +22,13 @@ h2 {
     text-transform: uppercase;
 }
 
+dt { 
+    font-weight: bold;
+}
+
+dd {
+    font-style: italic;
+}
 
 /* INDEX PAGE */
 
@@ -106,7 +113,7 @@ ul.index_nav li a:hover {
 
 .container a {
     font-weight: bold;
-    color: black;
+    color: #FF8100;
 }
 
 footer{
