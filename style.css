@@ -22,12 +22,15 @@ h2 {
     text-transform: uppercase;
 }
 
-dt { 
+dt {
     font-weight: bold;
 }
 
 dd {
     font-style: italic;
+}
+
+footer {
 }
 
 /* INDEX PAGE */
