@@ -33,8 +33,12 @@ dd {
 footer{
     background-color: #FF8100;
     height: 15vh;
+}
+
+footer p {
     clear: left;
-    font-size: 75%;
+    font-size: 80%;
+    padding-top: 40px;
 }
 
 /* INDEX PAGE */
