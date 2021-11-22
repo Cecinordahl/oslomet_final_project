@@ -30,7 +30,11 @@ dd {
     font-style: italic;
 }
 
-footer {
+footer{
+    background-color: #FF8100;
+    height: 15vh;
+    clear: left;
+    font-size: 75%;
 }
 
 /* INDEX PAGE */
@@ -130,12 +134,6 @@ ul.index_nav li a:hover {
     color: #FF8100;
 }
 
-footer{
-    background-color: #FF8100;
-    height: 15vh;
-    clear: left;
-    font-size: 75%;
-}
 
 
 /* NAVIGATION BAR */
