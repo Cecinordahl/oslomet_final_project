@@ -16,6 +16,11 @@ h2 {
     font-size: 40px;
 }
 
+.heading_index {
+    text-transform: uppercase;
+}
+
+
 
 
 /* INDEX PAGE */
@@ -29,12 +34,13 @@ h2 {
     background-size: cover;
 }
 
-.container__index{
+.container_index{
     width: 60%;
+    background-color: white;
     height: 250px;
     border-radius: 30px;
     border-style: solid;
-    border-width: 5px;
+    border-width: 3px;
     margin: 50px auto auto;
     padding-left: 30px;
     padding-right: 30px;
@@ -57,7 +63,7 @@ h2 {
 }
 
 
-.container__Topic{
+.container_Topic{
     width: 60%;
     height: 1200px;
     border-radius: 30px;
@@ -66,9 +72,6 @@ h2 {
     padding-right: 30px;
     padding-top: 10px;
     overflow: hidden;
-    /* margin: 0 auto;
-    display: block;
-    width: 100vw; */
 }
 
 ul.index_nav {
@@ -117,7 +120,8 @@ footer{
 
 /* NAVIGATION BAR */
 .navigation_bar{
-    position: fixed;
+    position: absolute;
+    display: block;
     width: 100vw;
 }
 ul.top_nav {
