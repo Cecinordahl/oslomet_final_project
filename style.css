@@ -82,7 +82,6 @@ ul.index_nav {
 }
 
 ul.index_nav li a {
-    text-decoration: none;
     text-align: center;
     color: black;
     font-weight: bold;
@@ -160,9 +159,6 @@ ul.top_nav li a:hover {
         font-size: 100%;
     }
 
-    .index_nav {
-        font-size: 10px;
-    }
 
     .index_background {
         background-image: url(/IMG_2826_mobile.jpg);
@@ -180,12 +176,12 @@ ul.top_nav li a:hover {
         
     }
 
-    .container {
-
+    h2 {
+        font-size: 25px;
     }
 
-    h2 {
-        font-size: 20px;
+    ul.index_nav li a {
+        font-size: 15px;
     }
 
 }
