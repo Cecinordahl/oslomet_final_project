@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.navigation_bar{
+    position: absolute;
+    display: block;
+    width: 100vw;
+}
+ul.top_nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 15px;
+    overflow: hidden;
+    text-align: center;
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+ul.top_nav li {
+    display: inline;
+    margin: 0;
+}
+
+ul.top_nav li a {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    float: right;
+}
+
+ul.top_nav li a:hover {
+    border-bottom:white solid 2px;
+}
+
+/* RESPONSIVE DESIGN; mobile view */
+@media only screen and (max-width: 600px) {
+    ul.top_nav li a, ul.top_nav_index li a {
+        display: block;
+        font-size: 100%;
+    }
+}
