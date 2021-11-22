@@ -30,6 +30,11 @@ dd {
     font-style: italic;
 }
 
+dl {
+    display: flex;
+    flex-direction: column;
+}
+
 footer{
     background-color: #FF8100;
     height: 15vh;
