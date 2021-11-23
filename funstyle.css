@@ -24,13 +24,13 @@ header {
     grid-column: 1;
     grid-row: 1;
     padding-right: 700px;
-    padding-left: 100px;
+    padding-left: 300px;
 }
 
 .text_box {
     grid-column: 1;
     grid-row: 1;
-    padding-top: 100px;
+    padding-top: 200px;
     padding-left: 700px;
     width: 80%;
 }
