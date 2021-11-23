@@ -138,8 +138,11 @@ ul.index_nav li a:hover {
 }
 
 .reflection_table td{
-    margin: 50px;
-    padding: 20px;
+    margin: 30px;
+}
+
+.td_text{
+    padding: 50px;
 }
 
 /* CONTAINERS ON ALL PAGES (except index) */
@@ -149,9 +152,7 @@ ul.index_nav li a:hover {
     border-radius: 10px;
     width: 60%;
     margin: 50px auto auto;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
+    padding: 10px 30px;
     overflow: hidden;
 }
 
