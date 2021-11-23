@@ -137,6 +137,11 @@ ul.index_nav li a:hover {
     background-size: cover;
 }
 
+.reflection_table td{
+    margin: 50px;
+    padding: 20px;
+}
+
 /* CONTAINERS ON ALL PAGES (except index) */
 .container {
     background-color: white;
