@@ -117,11 +117,11 @@ header {
 */
 
 .index_background {
-    background-image: url(Images/kveldsol.jpg);
+    background-image: url(/Images/kveldsol.jpg);
     min-height: 800px;
     background-repeat: no-repeat;
     background-position: center center;
-    
+
     background-size: cover;}
 
 h1 {
