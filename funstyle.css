@@ -154,13 +154,25 @@ img {
 iframe {
     width: 600;
     height: 450; 
-   border-style: 0;
+    border-style: 0;
+    
    
 }
 
 footer{
-    background-color: #FF8100;
+    background-color: #ff8000ad;
     height: 15vh;
+}
+
+footer p {
+    clear: left;
+    font-size: 80%;
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: black;
 }
 
 /*NAVIGATION BAR*/
