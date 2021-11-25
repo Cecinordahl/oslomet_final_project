@@ -227,12 +227,6 @@ ul.top_nav li a:hover {
         font-size: 100%;
     }
 
-
-    .index_background {
-        background-image: url(Images/IMG_2826_mobile.jpg);
-        min-height: 400px;
-    }
-
     .heading_index {
         font-size: 25px;
     }
@@ -260,6 +254,11 @@ ul.top_nav li a:hover {
 
     ul.index_nav li a {
         font-size: 15px;
+    }
+
+    footer {
+        height: auto;
+        padding-bottom: 20px;
     }
 
 }
