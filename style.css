@@ -218,7 +218,29 @@ ul.index_nav li a:hover {
 .reflection_table_divs{
     display: inline-flex;
     flex: auto;
+    justify-content: center;
+    align-items: center;
+
 }
+
+.reflection_table_divs img{
+    width: 40%;
+    height: fit-content;
+}
+
+#showPhotoMobile{
+    display: none;
+}
+
+
+#td_text_left1, #td_text_left2{
+    text-align: left;
+}
+
+#td_text_right{
+    text-align: right;
+}
+
 
 /* CONTAINERS ON ALL PAGES (except index) */
 .container {
@@ -361,8 +383,28 @@ ul.top_nav li a:hover {
     }
 
     .reflection_table_divs{
-        width: 100%;
         display: block;
     }
+
+    #showPhotoMobile{
+        display: block;
+    }
+    #hidePhotoMobile{
+        display: none;
+        width: 100%;
+    }
+
+    .reflection_table_divs img{
+        width: 100%;
+    }
+
+    .td_text{
+        padding: 0;
+    }
+
+    #td_text_right {
+        text-align: left;
+    }
+
 
 }
