@@ -64,8 +64,8 @@ body {
   }
   
   .text1 p, .text2 p, .text3 p, .text4 p {
-    height: 300px;
-    width: 450px;
+    height: 30vh;
+    width: calc(30vw + 100px);
     margin-top: -30px;
     background-color: rgba(0,180,189,0.6);
     position: absolute;
@@ -85,8 +85,8 @@ body {
   }
   
   .grid img {
-    height: 300px;
-    width: 450px;
+      height: auto;
+      width: calc(30vw + 100px);
   }
 
 
@@ -137,6 +137,7 @@ p {
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
 /*NAVIGATION BAR*/
@@ -181,5 +182,35 @@ ul.top_nav li a:hover {
     ul.top_nav li a, ul.top_nav_index li a {
         display: block;
         font-size: 100%;
+    }
+
+
+
+    .grid{
+        grid-template-columns: 100%;
+        max-width: 90vw;
+        margin: 10px auto;
+        row-gap: 0px;
+        grid-template-areas:
+      "image1"
+      "text1"
+      "image2"
+      "text2"
+      "image3"
+      "text3"
+      "image4"
+      "text4";
+    }
+
+    .text1 p, .text2 p, .text3 p, .text4 p {
+        margin: 0 auto;
+        height: auto;
+        width: 90vw;
+        position: relative;
+    }
+
+    .grid img {
+        height: auto;
+        width: 90vw;
     }
 }

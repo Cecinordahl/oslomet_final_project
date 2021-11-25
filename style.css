@@ -163,6 +163,18 @@ ul.index_nav li a:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* NAVIGATION BAR */
 .navigation_bar{
     position: absolute;
@@ -198,6 +210,15 @@ ul.top_nav li a {
 ul.top_nav li a:hover {
     border-bottom:black solid 2px;
 }
+
+
+
+
+
+
+
+
+
 
 /* RESPONSIVE DESIGN; mobile view */
 @media only screen and (max-width: 600px) {
