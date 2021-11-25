@@ -138,6 +138,10 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 { 
+    color: white;
+}
+
 p {
     color: white;
     margin: 30px 30px 30px 30px;
@@ -146,6 +150,12 @@ p {
 img {
     max-width: 100%;
     height: auto;
+}
+iframe {
+    width: 600;
+    height: 450; 
+   border-style: 0;
+   
 }
 
 footer{
