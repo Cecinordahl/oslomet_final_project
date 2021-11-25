@@ -108,34 +108,15 @@ header {
     display: grid;
 }
 
-/*
-.image_box {
-    grid-column: 1;
-    grid-row: 1;
-    padding-right: 700px;
-    padding-left: 300px;
+@font-face {
+    font-family: 'BackToSchool';
+    src: url(/BacktoSchool.ttf);
 }
-
-.text_box {
-    grid-column: 1;
-    grid-row: -1;
-    padding-bottom: 200px;
-    padding-left: 600px;
-    width: 80%;
-}
-*/
-
-.index_background {
-    background-image: url(/Images/kveldsol.jpg);
-    min-height: 800px;
-    background-repeat: no-repeat;
-    background-position: center center;
-
-    background-size: cover;}
 
 h1 {
     color: white;
-    text-transform: uppercase;
+    font-family: BackToSchool;
+    padding-top: 50px;
 }
 
 h2 { 
@@ -257,4 +238,8 @@ ul.top_nav li a:hover {
         left: 0;
     }
 
+    footer {
+        height: auto;
+        padding-bottom: 20px;
+    }
 }
