@@ -81,7 +81,7 @@ footer a {
 
   img {
       max-width: 100%;
-      border: double 5px;
+      border: solid 3px;
   }
 
   figcaption {
