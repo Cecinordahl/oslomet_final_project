@@ -215,6 +215,11 @@ ul.index_nav li a:hover {
     padding: 50px;
 }
 
+.reflection_table_divs{
+    display: inline-flex;
+    flex: auto;
+}
+
 /* CONTAINERS ON ALL PAGES (except index) */
 .container {
     background-color: white;
@@ -353,6 +358,11 @@ ul.top_nav li a:hover {
     footer {
         height: auto;
         padding-bottom: 20px;
+    }
+
+    .reflection_table_divs{
+        width: 100%;
+        display: block;
     }
 
 }
