@@ -71,7 +71,7 @@ body {
   }
   
   .text1 p, .text2 p, .text3 p, .text4 p {
-    height: 30vh;
+    height: 40vh;
     width: 30vw;
     margin-top: -30px;
     background-color: rgba(0,180,189,0.6);
