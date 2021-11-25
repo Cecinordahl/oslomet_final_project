@@ -57,7 +57,7 @@ footer a {
   .text1 p {
     height: auto;
     width: 400px;
-    margin-top: 0;
+    margin-top: 20px;
     position: absolute;
   }
   
@@ -187,7 +187,7 @@ ul.index_nav li a:hover {
 
 .topical_container a {
     font-weight: bold;
-    color: #FF8100;
+    color: black;
 }
 
 /*ACCESSIBILITY PAGE */
@@ -323,7 +323,7 @@ ul.top_nav li a:hover {
 
 
 /* RESPONSIVE DESIGN; mobile view */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
     ul.top_nav li a, ul.top_nav_index li a {
         display: block;
         font-size: 100%;
@@ -354,6 +354,16 @@ ul.top_nav li a:hover {
 
     h2 {
         font-size: 25px;
+        
+    }
+
+    h3 {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    p {
+        text-align: left;
     }
 
     ul.index_nav li a {
@@ -375,7 +385,7 @@ ul.top_nav li a:hover {
     .text1 p, .text2 p, .text3 p, .text4 p {
         margin: 0 auto;
         height: auto;
-        width: 90vw;
+        width: auto;
         position: relative;
         padding-right: 0;
     }
