@@ -42,41 +42,50 @@ body {
   .text4 {
     grid-area: text4;
   }
-  
-  .text1 p {
-    margin-left: -30px;
-    padding: 20px;
+
+  span{
+      display: block;
+      font-size: 30px
+  }
+
+  .text1 p, .text3 p {
+      position: relative;
+      right: 20%;
+      padding: 20px;
   }
   
-  .text2 p {
-    margin-left: 30px;
+  .text2 p, .text4 p  {
+      position: relative;
+      left: 20%;
     padding: 20px;
   }
 
-  .text3 p {
-    margin-left: -30px;
-    padding: 20px;
+  .image1, .image3{
+      position: relative;
+      left: 20%;
   }
-  
-  .text4 p {
-    margin-left: 30px;
-    padding: 20px;
+
+  .image2, .image4{
+      position: relative;
+      right: 20%;
   }
   
   .text1 p, .text2 p, .text3 p, .text4 p {
     height: 30vh;
-    width: calc(30vw + 100px);
+    width: 30vw;
     margin-top: -30px;
     background-color: rgba(0,180,189,0.6);
     position: absolute;
+      text-align: left;
+      padding-right: 50px;
   }
   
   .grid {
     display: grid;
     grid-template-columns: 50% 50%;
-    max-width: 900px;
-    margin: 50px auto;
-    row-gap: 150px;
+    max-width: 100vw;
+      margin: 50px auto;
+      row-gap: 150px;
     grid-template-areas: 
       "image1 text1" 
       "text2 image2"
@@ -86,7 +95,7 @@ body {
   
   .grid img {
       height: auto;
-      width: calc(30vw + 100px);
+      width: 30vw;
   }
 
 
@@ -207,10 +216,19 @@ ul.top_nav li a:hover {
         height: auto;
         width: 90vw;
         position: relative;
+        padding-right: 0;
     }
 
     .grid img {
         height: auto;
         width: 90vw;
     }
+    .text1 p, .text3 p, .image2, .image4 {
+        right: 0;
+    }
+
+    .text2 p, .text4 p, .image1, .image3  {
+        left: 0;
+    }
+
 }
