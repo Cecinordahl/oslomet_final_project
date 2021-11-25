@@ -11,6 +11,15 @@ body {
     height: 100vh;
     background-color: #FFDC00
 }
+.liste{
+ text-align: center;
+ list-style-position: inside;
+}
+
+ol.center_list {
+    text-align: left;
+    margin-left: 35%;
+}
 
 h1 {
    font-size: 60px; 
