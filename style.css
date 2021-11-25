@@ -88,6 +88,11 @@ footer a {
       font-style: italic;
   }
 
+  .center_list{
+    list-style-position: inside;
+    text-align: center;
+  }
+
 /* INDEX PAGE */
 
 .index_background {
